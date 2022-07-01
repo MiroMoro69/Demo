@@ -11,14 +11,9 @@
 	flex-direction: row;
 	justify-content: center;
 	margin-top: 300px;
-  background-color: orange;
-  border:  solid 2-;
 }
 
-.back_one{
-  width: 100%;
-  background-color: beige;
-}
+
 
 .back{
 	width: 460px;
