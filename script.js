@@ -1,7 +1,10 @@
-var btn = document.getElementById("theme-button");
-var link = document.getElementById("theme-link");
+
+var btn = document.getElementById("btn");
+var link = document.getElementById("theme");
 
 btn.addEventListener("click", function () { ChangeTheme(); });
+
+
 
 function ChangeTheme()
 {
@@ -13,13 +16,13 @@ function ChangeTheme()
 
     if(currTheme == lightTheme)
     {
-   	 currTheme = darkTheme;
-   	 theme = "night";
+     currTheme = darkTheme;
+     theme = "night";
     }
     else
     {    
-   	 currTheme = lightTheme;
-   	 theme = "light";
+     currTheme = lightTheme;
+     theme = "light";
     }
 
     link.setAttribute("href", currTheme);
