@@ -1,0 +1,39 @@
+body{
+	width: 600px;
+	margin-left: 30%;
+margin-top: 100px;
+
+}
+
+.wrapper{
+	position: absolute;
+	margin: 10px 208px;
+
+}
+
+.theme {
+	background: url(night_theme.png);
+	width: 184px;
+	height: 320px;
+		
+		position: relative;
+}
+
+
+.btn{
+
+margin-top:  69px;
+margin-left: 59px;
+position:  absolute;
+}
+
+.iksweb {
+display: inline-block;
+cursor: pointer; 
+font-size:14px;
+text-decoration:none;
+padding:26px 20px; 
+color:#25261d;
+background: rgb(149, 173, 173); 
+border-radius:60px;
+border:2px solid #ecf76d;}
